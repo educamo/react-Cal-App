@@ -1,5 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-ReactDOM.render(<h1>Hola mundo</h1>,
+//importar el componente
+import App from './App';
+
+
+// utilizar el componente
+ReactDOM.render(<App />,
     document.getElementById('root'));
